@@ -1,3 +1,4 @@
+import type { ISlider } from "@/interfaces/slider.interface";
 export const sliderData: ISlider[] = [
   {
     id: 1,

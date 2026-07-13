@@ -74,7 +74,7 @@ const Slider = () => {
       <div className="absolute bottom-40 left-8 z-50 flex items-center gap-3">
         <button
           onClick={() => swiperRef.current?.slidePrev()}
-          className="flex h-14 w-14 items-center justify-center rounded-full border
+          className="flex h-12 w-12 items-center justify-center rounded-full border
            border-white/60 bg-transparent text-white transition hover:bg-[#d37a49]/20"
         >
           <IoChevronForward className="text-xl" />
@@ -82,7 +82,7 @@ const Slider = () => {
 
         <button
           onClick={() => swiperRef.current?.slideNext()}
-          className="flex h-14 w-14 items-center justify-center rounded-full border
+          className="flex h-12 w-12 items-center justify-center rounded-full border
            border-white/60 bg-transparent text-white transition hover:bg-[#d37a49]/20"
         >
           <IoChevronBack className="text-xl" />
