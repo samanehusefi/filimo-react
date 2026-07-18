@@ -1,4 +1,4 @@
-import type { FooterLink } from "@/interfaces/footer.interface";
+import type { FooterLink } from "@/interfaces/IFooter";
 
 export const footerMenuLinks: FooterLink[] = [
   {

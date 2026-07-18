@@ -27,7 +27,7 @@ const Footer: React.FC = () => {
                   <a
                     href={child.href}
                     target={child.type === "external" ? "_blank" : undefined}
-                    rel={
+                    rel={  
                       child.type === "external"
                         ? "noopener noreferrer"
                         : undefined

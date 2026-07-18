@@ -1,4 +1,4 @@
-import type { SubMenuItem } from "@/interfaces/menu.interface";
+import type { SubMenuItem } from "@/interfaces/IMenu";
 
 interface MegaMenuProps {
   items: SubMenuItem[];

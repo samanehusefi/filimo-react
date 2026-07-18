@@ -1,4 +1,4 @@
-import type { MenuItem } from "@/interfaces/menu.interface";
+import type { MenuItem } from "@/interfaces/IMenu";
 import React from "react";
 
 type Props = {

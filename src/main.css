@@ -35,13 +35,17 @@
       url("/fonts/Yekan/Yekan.eot");
   }
 
-  body {
+  body,
+  html {
     font-family: iransans;
     direction: rtl;
-    @apply min-h-screen flex flex-col;
+    @apply min-h-screen flex flex-col bg-black;
   }
 }
 
+:root {
+  @apply bg-black;
+}
 /* MENU */
 .menu {
   @apply w-full;
